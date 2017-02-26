@@ -212,20 +212,9 @@ p {
 	overflow: hidden;
 	position: relative;
 	margin-bottom: 60px;
-}
-
-.circle:nth-child(2), .circle:nth-child(4), .circle:nth-child(6) {
-	float: left;
-	margin-left: 40px;
-}
-
-.circle:nth-child(3), .circle:nth-child(5) {
-	float: right;
-	margin-right: 40px;
-}
-
-.circle:nth-child(6) {
-	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .caption {
