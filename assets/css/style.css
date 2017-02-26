@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 body {
 	color: #424B54;
 	font-family: 'Amatic SC', cursive;
@@ -6,6 +10,8 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	position: relative;
+	min-height: 100%;
 }
 
 h1 {
@@ -45,6 +51,11 @@ h4 {
 	background-color: #fff;
 }
 
+.navbar-default .navbar-brand:active {
+	color: #77A0A9;
+	background-color: #fff;
+}
+
 .navbar-default .navbar-right > li > a, .navbar-default .navbar-right > li > a:focus {
 	color: #fff;
 	font-size: 16px;
@@ -52,6 +63,10 @@ h4 {
 }
 
 .navbar-default .navbar-right > li > a:hover {
+	color: #77A0A9;
+}
+
+.navbar-default .navbar-right > li > a:active {
 	color: #77A0A9;
 }
 
@@ -116,6 +131,11 @@ h4 {
 	text-decoration: none;
 }
 
+.pills:active {
+	background-color: #EE6C4D;
+	text-decoration: none;
+}
+
 .bottom {
 	margin-bottom: 120px;
 }
@@ -137,6 +157,11 @@ h4 {
 	font-size: 12px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: lighter;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
 }
 
 /*about.html*/
@@ -252,6 +277,11 @@ button:focus {
 }
 
 button:hover {
+	background-color: #EE6C4D;
+	text-decoration: none;
+}
+
+button:active {
 	background-color: #EE6C4D;
 	text-decoration: none;
 }
